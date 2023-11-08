@@ -1,13 +1,14 @@
  //Bibliotecas do C++
 #include <iostream>
+#include <iomainp>
 #include <string>
 
 //Utilizar padrão std
 using namespace std;
 
 int main() {
-    //Limitar as operações a duas casas decimais
-    cout.precision(3);
+    //Limitar as operações a duas casas decimais após o ponto
+    cout << fixed << setprecision(2);
     
      //Tipos de clientes
     int tipoCliente;
