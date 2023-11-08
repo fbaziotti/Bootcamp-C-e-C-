@@ -1,4 +1,4 @@
-//Bibliotecas do C++
+ //Bibliotecas do C++
 #include <iostream>
 #include <string>
 
@@ -6,6 +6,9 @@
 using namespace std;
 
 int main() {
+    //Limitar as operações a duas casas decimais
+    cout.precision(2);
+    
      //Tipos de clientes
     int tipoCliente;
 
@@ -198,4 +201,4 @@ int main() {
             break;
          }
          return 0;
-     }  
+     } 
