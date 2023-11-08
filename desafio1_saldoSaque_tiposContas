@@ -84,7 +84,7 @@ int main() {
         switch(opcao) {
             //Escolha PF
             case 1:
-            cout << "Conta corrente pf\n";
+            cout << "Conta corrente pf. Cliente desde: " << dataAberturaCC << endl;
             cout << "Informando sua taxa de operacao: " << tarifaCC << endl;
             cout << "Valor do saque desejado: ";
             cin >> saqueCC;
@@ -98,7 +98,7 @@ int main() {
             break;
 
             case 2:
-            cout << "Conta salario pf\n";
+            cout << "Conta salario pj. Cliente desde: " << dataAberturaCS << endl;
             cout << "Informando sua taxa de operacao: " << tarifaCS << endl;
             cout << "Valor do saque desejado: ";
             cin >> saqueCS;
@@ -112,7 +112,7 @@ int main() {
             break;
 
             case 3:
-            cout << "Conta poupanca pf\n";
+            cout << "Conta poupanca pf. Cliente desde: " << dataAberturaCP << endl;
             cout << "Informando sua taxa de operacao: " << tarifaCP << endl;
             cout << "Valor do saque desejado: ";
             cin >> saqueCP;
@@ -126,7 +126,7 @@ int main() {
             break;
 
             case 4:
-            cout << "Conta investimento pf\n";
+            cout << "Conta investimento pj. Cliente desde: " << dataAberturaCI << endl;
             cout << "Informando sua taxa de operacao: " << tarifaCI << endl;
             cout << "Valor do saque desejado: ";
             cin >> saqueCI;
@@ -156,7 +156,7 @@ int main() {
             break;
 
             case 2:
-            cout << "Conta salario pj\n";
+            cout << "Conta salario pj. Cliente desde: " << dataAberturaCS << endl;
             cout << "Informando sua taxa de operacao: " << tarifaCSJ << endl;
             cout << "Valor do saque desejado: ";
             cin >> saqueCSJ;
@@ -170,7 +170,7 @@ int main() {
             break;
 
             case 3:
-            cout << "Conta poupanca pj\n";
+            cout << "Conta poupanca pf. Cliente desde: " << dataAberturaCP << endl;
             cout << "Informando sua taxa de operacao: " << tarifaCPJ << endl;
             cout << "Valor do saque desejado: ";
             cin >> saqueCPJ;
@@ -184,7 +184,7 @@ int main() {
             break;
 
             case 4:
-            cout << "Conta investimento pj\n";
+            cout << "Conta investimento pj. Cliente desde: "<<dataAberturaCI<<endl;
             cout << "Informando sua taxa de operacao: " << tarifaCIJ << endl;
             cout << "Valor do saque desejado: ";
             cin >> saqueCIJ;
@@ -198,4 +198,4 @@ int main() {
             break;
          }
          return 0;
-     }
+     } 
