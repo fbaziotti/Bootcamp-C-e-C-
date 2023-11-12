@@ -1,6 +1,6 @@
  //Bibliotecas do C++
 #include <iostream>
-#include <iomainp>
+#include <iomanip>
 #include <string>
 
 //Utilizar padrão std
